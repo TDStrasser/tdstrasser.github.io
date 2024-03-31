@@ -12,6 +12,7 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
       '/',
+      '/manifest.json',
       '/index.html',
       '/kmgr.css',
       '/service_worker.js',
