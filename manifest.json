@@ -1,7 +1,7 @@
 {
     "theme_color": "#4a90e2",
     "background_color": "#ffffff",
-    "display": "web",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
     "name": "KookaTerminal",
